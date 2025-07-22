@@ -1,0 +1,39 @@
+Linked list: 
+	    A linked list is a linear data structure where elements (called nodes) are stored in separate memory locations and are connected using pointers.
+	 Unlike arrays, linked lists do not store elements in contiguous memory locations, making it easier to insert and delete elements dynamically.
+
+Structure of a Linked List Node:
+Each node in a linked list has two parts:
+Data: The actual value/data stored.
+Next: A pointer/reference to the next node in the list.
+
+Types of Linked Lists:
+Singly Linked List:
+	Each node points to the next node. Traversal is only forward.
+
+Doubly Linked:
+	 List Each node has two pointers one to the next node and one to the previous node. Traversal is both forward and backward.
+
+Circular Linked List:
+ 	The last node points back to the first node. Can be singly or doubly circular.
+
+
+Note: In linked its very easy to insert a new elements between two existing element.
+
+
+Disadvantages of a Linked list:
+
+1. We can't access the random element in a linked list.
+2. Linked list takes extra memory than a arrays because in each of the elements we required an extra space for the pointers (storing the memory location of the next data).
+
+
+Linked list is basically consist of 4 main operations:
+1. insert
+2. traverse
+3. delete
+4. search
+
+
+length of a linked list:
+		The length of a linked is nothing just number of Nodes present in the linked list.
+
